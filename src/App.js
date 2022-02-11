@@ -45,7 +45,7 @@ const App = () => {
         <div class = "box">
           <h1 key={index}>{item} </h1>
           <button className = "button" onClick = {() => removeHandler(index)}>Delete</button>
-          {/* <button className = "button" onClick = {() => removeHandler(index)}>Done</button> */}
+          <button className = "button" onClick = {() => removeHandler(index)}>Done</button>
   
         </div>
       )
@@ -54,8 +54,8 @@ const App = () => {
       <div className = "box">
      <button className = "button" onClick = { addHandler }>Add Item</button>
      </div>
-     <div class = "box">
-        { <p> TYPE ON THE BOX AND CLICK ADD ITEM TO ADD TO YOUR LIST -->    .</p>}
+     <div className = "box">
+        { <p> TYPE INSIDE THE BOX AND CLICK ADD ITEM TO ADD TO YOUR LIST --&gt; </p>}
         <input onChange = {(event) => setInputText(event.target.value) } />
         {/* <h2>{inputText}</h2> */}
      </div>
