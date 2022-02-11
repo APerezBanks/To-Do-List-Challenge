@@ -1,4 +1,10 @@
 
+
+/* for some reason I don't seem to resolve this issue, I wanted the whole page to have the same background
+but everytime  I added to the main Div or body it apply it to all the divs individually, it not just on background, its 
+same colours repeted many times, just looks weird*/
+
+
 .all{
     /* background: rgb(186,12,255); */
 background-image: linear-gradient(317deg, rgba(186,12,255,1) 0%, rgba(0,179,174,1) 59%);
